@@ -46,3 +46,9 @@ At the DNS provider serving `ns1.madhues.com` and `ns2.madhues.com`, replace the
 Use the provider's default TTL or 3600 seconds. Replace conflicting A, AAAA, or CNAME records for these two website names; retain unrelated records, including email MX/TXT records. IPv6 AAAA records are optional; if using them, use GitHub's documented values. Once DNS passes GitHub's check and its certificate is issued, enable **Enforce HTTPS** in Settings → Pages.
 
 DNS reference: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+## Mochi, the café cat
+
+`site/dist/mochi.js` and `mochi.css` add a small SVG companion with wave, stretch, grooming, nap, and happy animations. The menu links to the community and RSVP.kim, offers treats and side quests, and supports sleeping or hiding the mascot. Hidden Mochi can be restored from the footer. Preferences stay in the visitor's browser; unavailable browser storage is handled gracefully.
+
+Mochi reacts to the three existing side-quest cards, pauses idle behavior in background tabs, respects reduced-motion preferences, and moves above visible primary WhatsApp buttons. The menu supports keyboard navigation, Escape, and outside-click dismissal. No dependencies or external services are required.
